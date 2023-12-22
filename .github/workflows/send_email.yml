@@ -1,0 +1,8 @@
+name: test-action
+on: push
+jobs: 
+    my-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: hello-step
+              run: echo "Hello World! This is Dan's test action"
